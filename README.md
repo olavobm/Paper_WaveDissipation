@@ -12,10 +12,15 @@ At the top directory level, this GitHub repository has:
 * proc/: a directory with Matlab code to process data.
 * figures/: a directory with Matlab code to generate the figures.
 
+<!---
+The data has been archived in this [Zenodo repository](https://doi.org/.../zenodo....).
+-->
 
-The data has been archived in this [Zenodo repository](https://doi.org/10.5281/zenodo.13242438). To reproduce the analysis, save the data repository (a folder named data) in the same level as the content in the Paper_EffectiveDepth GitHub repository.
-To reproduce the figures, you must also have [cmocean](https://github.com/chadagreene/cmocean) for a few colormaps.
+To reproduce the paper, save the data repository (a folder named data) in the same level as the content in the Paper_WaveDissipation GitHub repository.
+To reproduce the figures, you must also have two additional toolboxes:
+* [m_map](https://www-old.eoas.ubc.ca/~rich/map.html) to make a map in Fig. 1.
+* [cmocean](https://github.com/chadagreene/cmocean) for a few colormaps.
 
-For using the repository, **first edit the directory path in paper_directory.m** to reflect the appropriate paper repository path in your machine.
-After editing paper_directory.m, you may run the full analysis with run_all.m. This script simply runs the other high-level scripts ~/data_proc/run_alldataprocessing.m and ~/figures/run_allfigures.m.
+For using the repository, **first edit the directory path in paper_directory.m** so that it provides the paper repository path in your machine.
+After editing paper_directory.m, you may run the full analysis with the high-level script run_reproducepaper.m.
 
