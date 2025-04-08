@@ -18,8 +18,8 @@ At the top directory level, this GitHub repository has:
 The data has been archived in this [Zenodo repository](https://doi.org/.../zenodo....).
 -->
 
-To reproduce the paper, save the data repository (a folder named data) in the same level as the content in the Paper_WaveDissipation GitHub repository.
-To reproduce the figures, you must also have two additional toolboxes:
+To reproduce the paper, save the data repository (i.e., a folder named data) in the same level as the content in the Paper_WaveDissipation GitHub repository.
+To fully reproduce the figures, you must also have two additional toolboxes:
 * [m_map](https://www-old.eoas.ubc.ca/~rich/map.html) to make a map in Fig. 1.
 * [cmocean](https://github.com/chadagreene/cmocean) for a few colormaps.
 
