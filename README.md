@@ -6,7 +6,7 @@ In this paper, we analyzed measurements collected on rocky shores of the Montere
 
 At the top directory level, this GitHub repository has:
 * paper_directory.m: a function that returns the paper directory path.
-* run_reproducepaper.m: a high-level function to run all scripts that process data and make figures.
+* run_reproducepaper.m: a high-level script to run all code for processing the data and making figures.
 * proc/: a directory with Matlab code to process data.
 * figures/: a directory with Matlab code to generate the figures.
 
@@ -20,5 +20,4 @@ To fully reproduce the figures, you must also have two additional toolboxes:
 * [cmocean](https://github.com/chadagreene/cmocean) for a few colormaps.
 
 For using the repository, **first edit the directory path in paper_directory.m** so that it provides the paper repository path in your machine.
-After editing paper_directory.m, you may run the full analysis with the high-level script run_reproducepaper.m.
-
+After editing paper_directory.m, you may run the full analysis with the high-level script run_reproducepaper.m. This script runs other scripts to (a) process bathymetry data, (b) process data from in-situ instruments, and (c) make figures in the paper.
