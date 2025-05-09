@@ -1,8 +1,8 @@
 # Paper_WaveDissipation
 
-The repository Paper_WaveDissipation has code to analyze data and generate figures for the science paper "Observations of Wave Energy Dissipation by Bottom Friction on Rocky Shores" [(Marques et al. 2025, DOI:10.1175/JPO-D-24-0144.1)](https://journals.ametsoc.org/view/journals/phoc/aop/JPO-D-24-0144.1/JPO-D-24-0144.1.xml), accepted for publication in the Journal of Physical Oceanography (JPO).
+The repository Paper_WaveDissipation has code to analyze data and generate figures for the science paper "Observations of Wave Energy Dissipation by Bottom Friction on Rocky Shores" [(Marques et al. 2025)](https://journals.ametsoc.org/view/journals/phoc/aop/JPO-D-24-0144.1/JPO-D-24-0144.1.xml), accepted for publication in the Journal of Physical Oceanography (JPO).
 
-The data are archived in [this Zenodo repository (Marques et al. 2025, DOI:10.5281/zenodo.15199471)](https://zenodo.org/records/15199472).
+The data are archived in [this Zenodo repository (Marques et al. 2025)](https://zenodo.org/records/15199472).
 
 In this paper, we analyzed measurements collected on rocky shores of the Monterey Peninsula as part of the [ROXSI (ROcky shores: eXperiments and SImulations)](https://roxsi.ucsd.edu/) 2022 experiment. In particular, we observed significant dissipation of sea-swell waves outside of the surfzone, which indicates large wave dissipation by bottom friction. The dissipation observed between pairs of instruments provides estimates of the wave friction factor $f_e$. The observed $f_e$ typically varies between 1 and 10, and are amongst the largest friction factors observed in environments with rough seabeds, including coral reefs and rocky shores.
 
